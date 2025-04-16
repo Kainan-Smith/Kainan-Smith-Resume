@@ -1,7 +1,23 @@
+/* Fonts */
+.permanent-marker {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+  .handlee {
+    font-family: "Handlee", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+/* End of Fonts */
 body {
     background-color: #e6bb95;
 }
 
+
+/* Post-It Note Styles*/
 .post {
     max-width: 300px;
     height: 300px;
@@ -9,4 +25,34 @@ body {
     background-color: #FEF587;
     padding: 15px;
     margin: 20px;
+}
+
+.post-text {
+    font-size: 21px;
+}
+
+
+/* Title Plaque Styles */
+.title {
+    font-size: 42px;
+}
+
+.plaque {
+    color: gold;
+    background-color: black;
+    border: 2px solid gold;
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 18%;
+}
+
+
+/* Subtitle Slip Styles */
+
+.slip {
+
+}
+
+.subtitle {
+
 }
