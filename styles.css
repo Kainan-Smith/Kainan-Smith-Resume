@@ -14,17 +14,25 @@
 /* End of Fonts */
 body {
     background-color: #e6bb95;
+    padding: 15px;
+}
+
+
+/* Shadow Effect */
+.post,
+.slip,
+.plaque {
+    box-shadow: 3px 3px 5px black;
 }
 
 
 /* Post-It Note Styles*/
 .post {
-    max-width: 300px;
-    height: 300px;
-    box-shadow: 3px 3px 5px;
+    width: 30%;
+    max-height: 300px;
     background-color: #FEF587;
     padding: 15px;
-    margin: 20px;
+    margin: 10px;
 }
 
 .post-text {
@@ -43,16 +51,24 @@ body {
     border: 2px solid gold;
     padding-left: 30px;
     padding-right: 30px;
-    max-width: 18%;
 }
 
-
 /* Subtitle Slip Styles */
-
 .slip {
-
+    background-color: #f5f5f5;
+    max-height: 300px;
+    margin-top: 15px;
 }
 
 .subtitle {
+    font-size: 30px;
+}
 
+/* Ink Color Styles */
+.red-ink {
+    color: #B10000;
+}
+
+.blue-ink {
+    color: #0D25DC;
 }
